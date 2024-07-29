@@ -1,0 +1,95 @@
+body {
+  background-color: aliceblue;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #161512;
+  font-size: 16px;
+  line-height: normal;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  color: maroon;
+  line-height: 1.5em;
+  font-size: 32px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  color: darkred;
+  line-height: 1.2em;
+  font-size: 20px;
+  text-align: center;
+}
+
+a {
+  color: brown;
+  text-decoration: underline;
+  transition: font-weight 0.5s ease;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.container {
+  background: white;
+  width: 700px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+  margin: 20px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+#profile_pic img {
+  border-radius: 14px;
+}
+
+ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.socials-link {
+  margin-right: 15px; /* Space between items */
+}
+
+.socials-link:last-child {
+  margin-right: 0; /* Remove margin from the last item */
+}
+
+.socials-container {
+  margin-top: 20px; /* Add vertical space between Hire Me and the socials */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
